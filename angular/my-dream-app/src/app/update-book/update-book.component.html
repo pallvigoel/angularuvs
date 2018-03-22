@@ -1,0 +1,15 @@
+<div class ="container">
+  <div class="row">
+    <div class="col-md-12">
+  <form  #bookForm="ngForm" (ngSubmit)="updateBook(bookForm)">
+  <div class="form-group">
+  <label for="bookTitle">Book title</label>
+  <input type="text"id="bookTitle" name="title" ngModel>
+  </div>  
+  <input type="submit" class="btn btn success">submit
+  
+  </form>
+   </div>
+  </div>
+  </div>
+  
